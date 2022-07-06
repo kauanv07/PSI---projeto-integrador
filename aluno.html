@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study-aluno</title>
+  <link rel="stylesheet" href="static/css/aluno.css">
+</head>
+<body>
+  {%extends 'base.html'%}
+  <main>
+    {%block conteudo%}
+      <section class="main-aluno">
+          <h2>Tarefas</h2>
+        {%for t in tarefas%}
+          <div class= {{t.titulo}}>
+            <h3>{{t.nome}}</h3>
+            <p class="p1"><span>Matéria:</span> {{t.materia}}</p>
+            <p class="p2"><span>Descrição:</span> {{t.descricao}}</p>
+            <a class='escolher' href=#>Escolher método para esta tarefa</a>
+          </div>
+        {%endfor%}
+        <button class='adicionar'>Adicionar tarefa</button>
+        <img class='estudando' src= "/static/assets/estudando.png">
+      </section>
+    {%endblock%}
+  </main>
+</body>
+</html>
