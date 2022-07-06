@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins';
+    background: #FAFAFA;
+}
+
+.main-resposta{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    height: 1021px;
+}
+.b p{
+    position: relative;
+    width: 424px;
+    height: 210px;
+    left: 138px;
+    top: 60px;
+    font-style: italic;
+    font-weight: 275;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+.b{
+    position:absolute;
+    width: 700px;
+    height: 300px;
+    left: 350px;
+    top: 300px;
+    background: #F8EFA4;
+    border-radius: 30px;
+}
+#img{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 550px;
+  top: 670px;
+}

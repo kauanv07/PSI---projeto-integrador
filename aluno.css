@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+main{
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.main-aluno{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    height: 1500px;
+}
+h2{
+  position: absolute;
+  width: 185px;
+  height: 72px;
+  left: 446px;
+  top: 300px;
+  
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+}
+
+.t1{
+  position: absolute;
+  width: 773px;
+  height: 400px;
+  left: 140px;
+  top: 476px;
+  
+  background: #EFDDF8;
+  border-radius: 30px;
+}
+
+.t1 h3{
+  position: absolute;
+  width: 369px;
+  height: 36px;
+  left: 202px;
+  top: 37px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #AF60FF;
+}
+
+.t1 .p1{
+  position: absolute;
+  width: 676px;
+  height: 38px;
+  left: 49px;
+  top: 95px;
+  
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+
+}
+
+.p1 span{
+  color: #AF60FF;
+}
+
+.t1 .p2{
+  position: absolute;
+  width: 676px;
+  height: 114px;
+  left: 49px;
+  top: 155px;
+  
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.p2 span{
+  color: #AF60FF;
+}
+
+.t1 .escolher{
+  position: absolute;
+  width: 454px;
+  height: 60px;
+  left: 271px;
+  top: 305px;
+  
+  background: #CEABDF;
+  border-radius: 8px;
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  padding-top: 14px;
+  padding-left: 20px;
+}
+
+.t2{
+  position: absolute;
+  width: 777px;
+  height: 434px;
+  left: 140px;
+  top: 916px;
+  
+  background: #EFDDF8;
+  box-shadow: 0px 12px 64px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.t2 h3{
+  position: absolute;
+  width: 462px;
+  height: 36px;
+  left: 158px;
+  top: 42px;
+  
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #AF60FF;
+}
+
+.t2 .p1{
+  position: absolute;
+  width: 257px;
+  height: 36px;
+  left: 49px;
+  top: 102px;
+  
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+}
+
+.t2 .p2{
+  position: absolute;
+  width: 676px;
+  height: 144px;
+  left: 49px;
+  top: 160px;
+  
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+}
+
+.t2 .escolher{
+  position: absolute;
+  width: 454px;
+  height: 60px;
+  left: 271px;
+  top: 340px;
+  
+  background: #CEABDF;
+  border-radius: 8px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #000000;
+  padding-top: 14px;
+  padding-left: 20px;
+}
+
+.estudando{
+  position: absolute;
+  width: 358px;
+  height: 358px;
+  left: 987px;
+  top: 745px;
+}
+
+.adicionar{
+  position: absolute;
+  width: 777px;
+  height: 79px;
+  left: 140px;
+  top: 1386px;
+  
+  background: #CEABDF;
+  border-radius: 20px;
+
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000
+  padding-top:4px;
+  padding-left: 0px;
+  border: 0px;
+}
