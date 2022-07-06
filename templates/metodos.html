@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/metodos.css">
+    <title>Study-Métodos</title>
+</head>
+<body>
+  {%extends 'base.html'%}
+
+  <main>
+    {%block conteudo%}
+      <section class="main-metodo">
+        <h2>Quais são os <span>métodos</span> de<br>
+          estudo que utilizamos?</h2>
+        {% for m in metodos %}
+          <div class= {{m.titulo}}>
+            <h3>{{m.nome}}</h3>
+            <p>{{m.descricao}}</p>
+          </div>
+        {%endfor%}
+        <img class="imagem" src= "/static/assets/meninaemlivro.png">
+      </section>
+    {%endblock%}
+  </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/home.css">
+    <title>Study - {% block titulo %}{% endblock %} </title>
+</head>
+<body>
+   <header class="container-1">
+        <section class="box-menu">
+          <img src="static/assets/Logotipo-study.png" alt="logo-study">
+          <nav class="menu">
+            <ul>
+                <li><a href="/">Página inicial</a></li>
+                <li><a href="/sobrenos">Sobre nós</a></li>
+                <li><a href="/metodos">Métodos</a></li>
+                <li><a href="/aluno">Aluno</a></li>
+                <li><a href="/sugestoes">Sugestões</a></li>
+            </ul>
+            <div class="btn-cadastro1">
+                <a href="/login">Inscreva-se</a>
+            </div>
+          </nav>
+        </section>
+    </header>
+  
+    <main>
+        {% block conteudo %}
+        {% endblock %}
+    </main>
+  
+    <footer class="rodape">
+        <p>© 2022 Site desenvolvido pela study - Criadora de Métodos de Estudos | IFRN</p>
+    </footer>
+</body>
+</html>
